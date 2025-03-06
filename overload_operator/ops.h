@@ -7,7 +7,7 @@
 class OPS{
 
     private:
-    std::vector<int> v;
+    std::vector<int> v_;
 
     public:
     OPS& operator<<(int i);

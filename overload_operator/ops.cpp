@@ -2,11 +2,13 @@
 #include<iostream>
 
 OPS& OPS::operator<<(int i){
-    v.push_back(i);
+    v_.push_back(i);
     return *this;
 }
 
 std::ostream& operator<<(std::ostream& os, OPS ops){
-    os << "This is OPS class";
+    for (const auto& e : ops.v_){
+        os << e << " ";
+    }
     return os;
 }
