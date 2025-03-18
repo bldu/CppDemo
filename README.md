@@ -1,0 +1,1 @@
+A standard c++ project orgnized with cmake.
