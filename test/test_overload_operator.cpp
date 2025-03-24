@@ -1,5 +1,6 @@
-#include "ops.h"
 #include <iostream>
+#include "ops.h"
+
 
 int main(int argc, char const *argv[])
 {
