@@ -7,11 +7,13 @@ class MyClass{
     private:
     int x_;
     int y_;
+    int size_;
     int* p_;
 
     public:
     MyClass(int x, int y, int size);
     MyClass(int size);
+    MyClass(const MyClass& mc);
     ~MyClass();
 };
 

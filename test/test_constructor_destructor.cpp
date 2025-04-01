@@ -8,5 +8,6 @@ int main(int argc, char const *argv[])
     std::cout << a << std::endl;
     MyClass mc1{1, 2, 2000};
     MyClass mc2{10000};
+    MyClass mc3{mc1};
     return 0;
 }
