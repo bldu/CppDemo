@@ -9,5 +9,8 @@ int main(int argc, char const *argv[])
     std::cout << ops << std::endl;
     ops << 7;
     std::cout << ops << std::endl;
+    std::cout << ops[1] << std::endl;
+    ops[1] = 100;
+    std::cout << ops[1] << std::endl;
     return 0;
 }

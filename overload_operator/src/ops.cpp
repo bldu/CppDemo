@@ -6,6 +6,10 @@ OPS& OPS::operator<<(int i){
     return *this;
 }
 
+int& OPS::operator[](int i){
+    return v_[i];
+}
+
 std::ostream& operator<<(std::ostream& os, OPS ops){
     for (const auto& e : ops.v_){
         os << e << " ";

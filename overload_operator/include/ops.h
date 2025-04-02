@@ -11,6 +11,8 @@ class OPS{
 
     public:
     OPS& operator<<(int i);
+    int& operator[](int i);
+
     friend std::ostream& operator<<(std::ostream& os, OPS ops);
 
 };
