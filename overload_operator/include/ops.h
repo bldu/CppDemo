@@ -1,5 +1,5 @@
-#ifndef OVERLOAD_OPERATOR_OPS
-#define OVERLOAD_OPERATOR_OPS
+#ifndef OVERLOAD_OPERATOR_INCLUDE_OPS_H_
+#define OVERLOAD_OPERATOR_INCLUDE_OPS_H_
 
 #include<iostream>
 #include<vector>
@@ -21,4 +21,4 @@ class OPS{
 
 
 
-#endif /* OVERLOAD_OPERATOR_OPS */
+#endif  // OVERLOAD_OPERATOR_INCLUDE_OPS_H_
