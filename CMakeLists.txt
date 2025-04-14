@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_subdirectory(overload_operator)
 add_subdirectory(constructor_destructor)
 add_subdirectory(function_pointer)
+add_subdirectory(argument_pass)
 
 
 # 添加测试目录（需放在所有子项目之后）
