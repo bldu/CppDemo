@@ -15,7 +15,7 @@ class Impl{
 
 Interface::Interface(): impl_(new Impl){}
 
-Interface::~Interface(){}
+Interface::~Interface(){} // 必须在Impl有完整定义后实现析构函数
 
 float Interface::ComplicatedCalc(float x){
     return impl_->Square(x) + impl_->SquareRoot(x);
