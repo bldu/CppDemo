@@ -10,6 +10,7 @@ add_subdirectory(overload_operator)
 add_subdirectory(constructor_destructor)
 add_subdirectory(function_pointer)
 add_subdirectory(argument_pass)
+add_subdirectory(PImpl)
 
 
 # 添加测试目录（需放在所有子项目之后）
